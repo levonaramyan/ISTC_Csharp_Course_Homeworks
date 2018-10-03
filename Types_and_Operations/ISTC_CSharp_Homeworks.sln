@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "determining_Weight_Class", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleConsoleCalculator", "SimpleConsoleCalculator\SimpleConsoleCalculator.csproj", "{AA568C5B-6AC3-47A0-BB94-AD2274597838}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_5_1_the_day_of_a_week", "homework_5_1_the_day_of_a_week\homework_5_1_the_day_of_a_week.csproj", "{6BD45C7D-8A28-4AAA-8641-05B97BCEB67C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AA568C5B-6AC3-47A0-BB94-AD2274597838}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA568C5B-6AC3-47A0-BB94-AD2274597838}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA568C5B-6AC3-47A0-BB94-AD2274597838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD45C7D-8A28-4AAA-8641-05B97BCEB67C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD45C7D-8A28-4AAA-8641-05B97BCEB67C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD45C7D-8A28-4AAA-8641-05B97BCEB67C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD45C7D-8A28-4AAA-8641-05B97BCEB67C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
