@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_5_1_the_day_of_a_w
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_5_2_read_lower_write_uppercase", "homework_5_2_read_lower_write_uppercase\homework_5_2_read_lower_write_uppercase.csproj", "{80E7586B-DB98-4D47-920D-F79CA7DBE5D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_6_1_area", "homework_6_1_area\homework_6_1_area.csproj", "{49D77CD9-FBC0-4D4E-9ECF-A45DD80DDCA9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{80E7586B-DB98-4D47-920D-F79CA7DBE5D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80E7586B-DB98-4D47-920D-F79CA7DBE5D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80E7586B-DB98-4D47-920D-F79CA7DBE5D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49D77CD9-FBC0-4D4E-9ECF-A45DD80DDCA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49D77CD9-FBC0-4D4E-9ECF-A45DD80DDCA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49D77CD9-FBC0-4D4E-9ECF-A45DD80DDCA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49D77CD9-FBC0-4D4E-9ECF-A45DD80DDCA9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
