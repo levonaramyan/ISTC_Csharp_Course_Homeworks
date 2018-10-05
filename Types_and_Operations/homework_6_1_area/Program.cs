@@ -13,16 +13,16 @@ namespace homework_6_1_area
     {
         static void Main(string[] args)
         {
-            string parName = "ABRa"; // contains the names of parameters of various shapes
-            double area = 1;
-            Console.WriteLine("Please select the shape:\n1. Rectangle\n2. Circle\n3. Square"); // reading the shape
-            char shape = Console.ReadKey().KeyChar;
-            if (shape == '1') for (int i = 0; i <= 1; i++) { Console.Write($"\n{parName[i]} = "); // if rectangle
-                    area *= Convert.ToDouble(Console.ReadLine());}
-            else if (shape == '2' || shape == '3') { Console.Write($"\n{parName[Convert.ToInt32($"{shape}")]} = "); // if circle/square
-                area *= Math.Pow(Math.PI, (3 - Convert.ToInt32($"{shape}"))) * Math.Pow(Convert.ToDouble(Console.ReadLine()), 2);}
-            Console.WriteLine((shape != '1' && shape != '2' && shape != '3') ? "\nWrong selection" : $"\nThe area is {area}");
-            Console.ReadKey();
+            Console.Write("Select shape : \n1 - Rectangle \n2 - Circle \n3 - Square\nShape: ");
+            string shape = Console.ReadLine();
+            Console.Write(shape == "2" ? "Enter circle radius : R = " : shape == "3" ? "Enter square side : A = " : shape == "1" ? "Enter Rectangle sides : \nA = " : "wrong selection");
+            if (shape == "1" || shape == "2" || shape == "3")
+            {
+                double side1 = Convert.ToDouble(Console.ReadLine());
+                if (shape == "1") Console.Write("B = ");
+                Console.WriteLine("The area of " + (shape == "2" ? $"circle is: {Math.PI * side1 * side1}" : (shape == "3" ? $"square is: {side1 * side1}" : (shape == "1" ? $"rectangle is: {side1 * Convert.ToDouble(Console.ReadLine())}" : ""))));
+            }
+                Console.ReadKey();         
         }
     }
 }
