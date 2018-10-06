@@ -35,7 +35,7 @@ namespace homework_6_2_SumOfDigits
 
             // The simplest way to calculate a sum of digits of 4 digit integer
             int my4DigitNum = 4563;
-            sumOfDigits += Convert.ToInt32($"{my4DigitNum}"[0]) + Convert.ToInt32($"{my4DigitNum}"[1])
+            sumOfDigits = Convert.ToInt32($"{my4DigitNum}"[0]) + Convert.ToInt32($"{my4DigitNum}"[1])
                 + Convert.ToInt32($"{my4DigitNum}"[2]) + Convert.ToInt32($"{my4DigitNum}"[3]);
 
             Console.Write($"\nThe sum of digits of {my4DigitNum} is: {sumOfDigits}");
