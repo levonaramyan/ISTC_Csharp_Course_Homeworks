@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_6_2_SumOfDigits", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_7_for_loop_tasks", "homework_7_for_loop_tasks\homework_7_for_loop_tasks.csproj", "{B71DA7B7-1ABF-4D7C-A714-B42488420A4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_7_1_New For Loop tasks", "Homework_7_1_New For Loop tasks\Homework_7_1_New For Loop tasks.csproj", "{2B3BD7F1-9AF1-4619-8A64-9F0BFF8A7272}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{B71DA7B7-1ABF-4D7C-A714-B42488420A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B71DA7B7-1ABF-4D7C-A714-B42488420A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B71DA7B7-1ABF-4D7C-A714-B42488420A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B3BD7F1-9AF1-4619-8A64-9F0BFF8A7272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B3BD7F1-9AF1-4619-8A64-9F0BFF8A7272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B3BD7F1-9AF1-4619-8A64-9F0BFF8A7272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B3BD7F1-9AF1-4619-8A64-9F0BFF8A7272}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
