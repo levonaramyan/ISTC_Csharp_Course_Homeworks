@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_8_The same tasks w
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_8_special_draw_rhombus", "Homework_8_special_draw_rhombus\Homework_8_special_draw_rhombus.csproj", "{BC9BBD3A-59B9-43FD-80B8-E9D089128776}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_8_spec2_FindSimilarDigitNumber", "Homework_8_spec2_FindSimilarDigitNumber\Homework_8_spec2_FindSimilarDigitNumber.csproj", "{B36CFE53-0742-4D4B-83B6-9075E73D3FE7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{BC9BBD3A-59B9-43FD-80B8-E9D089128776}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC9BBD3A-59B9-43FD-80B8-E9D089128776}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC9BBD3A-59B9-43FD-80B8-E9D089128776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36CFE53-0742-4D4B-83B6-9075E73D3FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36CFE53-0742-4D4B-83B6-9075E73D3FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36CFE53-0742-4D4B-83B6-9075E73D3FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36CFE53-0742-4D4B-83B6-9075E73D3FE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
