@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "homework_7_for_loop_tasks",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_7_1_New For Loop tasks", "Homework_7_1_New For Loop tasks\Homework_7_1_New For Loop tasks.csproj", "{2B3BD7F1-9AF1-4619-8A64-9F0BFF8A7272}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_8_The same tasks with while Loop", "Homework_8_The same tasks with while Loop\Homework_8_The same tasks with while Loop.csproj", "{02DEC862-0C45-4895-B9D8-65FA3EC278F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{2B3BD7F1-9AF1-4619-8A64-9F0BFF8A7272}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B3BD7F1-9AF1-4619-8A64-9F0BFF8A7272}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B3BD7F1-9AF1-4619-8A64-9F0BFF8A7272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02DEC862-0C45-4895-B9D8-65FA3EC278F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02DEC862-0C45-4895-B9D8-65FA3EC278F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02DEC862-0C45-4895-B9D8-65FA3EC278F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02DEC862-0C45-4895-B9D8-65FA3EC278F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
