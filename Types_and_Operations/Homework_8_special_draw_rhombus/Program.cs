@@ -16,29 +16,14 @@ namespace Homework_8_special_draw_rhombus
             int a = int.Parse(Console.ReadLine()); // reading the side
 
             // initializing the longest line of a rhombus
-            string rhombus = "";
-            for (int i = 1; i <= 2 * a - 1; i++)
-                rhombus = $"{rhombus}*";
+            string rhombus = new string('*', 2 * a - 1);
 
             // adding symmetrically one line below and one line above
             for (int i = a - 1; i > 0; i--)
             {
-                int b = 2 * i - 1;
-                int c = a - i;
-                string currentLine = "";
-
-                // Adding '*'-s in currrent line
-                for (int j = 1; j <= b; j++)
-                {
-                    currentLine = $"{currentLine}*";
-                }
-
-                // Adding spaces in current line
-                for (int j = 1; j <= c; j++)
-                {
-                    currentLine = $" {currentLine}";
-                }
-
+                // Constructing the current line
+                string currentLine = $"{new String(' ', a - i)}{new String('*', 2 * i -1)}";
+                
                 // putting one currentLine below, and one above
                 rhombus = $"{currentLine}\n{rhombus}\n{currentLine}";
             }
