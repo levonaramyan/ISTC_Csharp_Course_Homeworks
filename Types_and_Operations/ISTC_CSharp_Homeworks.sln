@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_8_spec2_FindSimila
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_8_spec3_task14_DoubleOfDigitSum", "Homework_8_spec3_task14_DoubleOfDigitSum\Homework_8_spec3_task14_DoubleOfDigitSum.csproj", "{913E07CA-8DBE-4577-8B42-108D35FECA04}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_8_spec4_task15_SevenTimesMore", "Homework_8_spec4_task15_SevenTimesMore\Homework_8_spec4_task15_SevenTimesMore.csproj", "{9C8953B4-94E8-4706-AD01-50443ECE6043}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{913E07CA-8DBE-4577-8B42-108D35FECA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{913E07CA-8DBE-4577-8B42-108D35FECA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{913E07CA-8DBE-4577-8B42-108D35FECA04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C8953B4-94E8-4706-AD01-50443ECE6043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C8953B4-94E8-4706-AD01-50443ECE6043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C8953B4-94E8-4706-AD01-50443ECE6043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C8953B4-94E8-4706-AD01-50443ECE6043}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
