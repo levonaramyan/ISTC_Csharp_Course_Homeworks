@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_9_Task_19_Multipl_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_9_Task_20_Square_Of_Max_And_Min_Digit_Diff", "Homework_9_Task_20_Square_Of_Max_And_Min_Digit_Diff\Homework_9_Task_20_Square_Of_Max_And_Min_Digit_Diff.csproj", "{9FD01FA3-E5C0-4A92-9ABC-508405EA0E38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_9_Task_special1_one_plus_x_approximation", "Homework_9_Task_special1_one_plus_x_approximation\Homework_9_Task_special1_one_plus_x_approximation.csproj", "{9D662D01-4B5A-4BB3-A074-EBD2292AF5FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{9FD01FA3-E5C0-4A92-9ABC-508405EA0E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FD01FA3-E5C0-4A92-9ABC-508405EA0E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FD01FA3-E5C0-4A92-9ABC-508405EA0E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D662D01-4B5A-4BB3-A074-EBD2292AF5FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D662D01-4B5A-4BB3-A074-EBD2292AF5FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D662D01-4B5A-4BB3-A074-EBD2292AF5FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D662D01-4B5A-4BB3-A074-EBD2292AF5FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
