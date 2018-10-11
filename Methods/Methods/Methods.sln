@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_9_Task_18_Sum_Of_M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_9_Task_19_Multipl_Of_Less_Than_7_digits", "Homework_9_Task_19_Multipl_Of_Less_Than_7_digits\Homework_9_Task_19_Multipl_Of_Less_Than_7_digits.csproj", "{7CCF8638-8262-40F1-B7B1-9F238E5E87A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_9_Task_20_Square_Of_Max_And_Min_Digit_Diff", "Homework_9_Task_20_Square_Of_Max_And_Min_Digit_Diff\Homework_9_Task_20_Square_Of_Max_And_Min_Digit_Diff.csproj", "{9FD01FA3-E5C0-4A92-9ABC-508405EA0E38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{7CCF8638-8262-40F1-B7B1-9F238E5E87A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7CCF8638-8262-40F1-B7B1-9F238E5E87A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7CCF8638-8262-40F1-B7B1-9F238E5E87A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FD01FA3-E5C0-4A92-9ABC-508405EA0E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FD01FA3-E5C0-4A92-9ABC-508405EA0E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FD01FA3-E5C0-4A92-9ABC-508405EA0E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FD01FA3-E5C0-4A92-9ABC-508405EA0E38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
