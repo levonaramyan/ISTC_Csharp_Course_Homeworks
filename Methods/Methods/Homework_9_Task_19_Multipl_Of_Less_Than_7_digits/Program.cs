@@ -4,40 +4,40 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Homework_9_Task_18_Sum_Of_More_Than_4_digits
+namespace Homework_9_Task_19_Multipl_Of_Less_Than_7_digits
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Title(homework: 9, task: 18, subject: "Using Methods",
-                problem: "Given a number n, print the sum of its odd digits, which are > 4."); // printing a title 
+            Title(homework: 9, task: 19, subject: "Using Methods",
+                problem: "Given a number n, print the multiplication of its even digits, which are < 7."); // printing a title 
 
             int myNum = ReadInt(); // reading an integer from console
-            int sum = GetMoreThan4OddDigitSum(myNum); // getting the sum of odd digits > 4
+            int mult = GetLessThan7EvenDigitMult(myNum); // getting the result of multiplication
 
-            // Printing the sum 
-            Console.WriteLine($"The sum is: {sum}");
+            // Printing the result 
+            Console.WriteLine($"The result is: {mult}");
             Console.ReadKey();
         }
 
         /// <summary>
-        /// Returns the sum of the odd digits of n, which are > 4.
+        /// Returns the multiplication of the even digits of n, which are less than 7.
         /// </summary>
         /// <param name="num"></param>
         /// <returns></returns>
-        static int GetMoreThan4OddDigitSum(int num)
+        static int GetLessThan7EvenDigitMult(int num)
         {
-            int sum = 0;
+            int mult = 1;
             while (num != 0)
             {
                 int tempDigit = num % 10;
-                if (IsOdd(tempDigit) && tempDigit > 4)
-                    sum += tempDigit;
+                if (tempDigit != 0 && !IsOdd(tempDigit) && tempDigit < 7)
+                    mult *= tempDigit;
                 num /= 10;
             }
 
-            return sum;
+            return mult;
         }
 
         /// <summary>

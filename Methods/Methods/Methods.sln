@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_9_Task_17_The_Leas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_9_Task_18_Sum_Of_More_Than_4_digits", "Homework_9_Task_18_Sum_Of_More_Than_4_digits\Homework_9_Task_18_Sum_Of_More_Than_4_digits.csproj", "{A0EBBDA0-14B8-4A00-A1C5-35F81C6B9452}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_9_Task_19_Multipl_Of_Less_Than_7_digits", "Homework_9_Task_19_Multipl_Of_Less_Than_7_digits\Homework_9_Task_19_Multipl_Of_Less_Than_7_digits.csproj", "{7CCF8638-8262-40F1-B7B1-9F238E5E87A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A0EBBDA0-14B8-4A00-A1C5-35F81C6B9452}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0EBBDA0-14B8-4A00-A1C5-35F81C6B9452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0EBBDA0-14B8-4A00-A1C5-35F81C6B9452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CCF8638-8262-40F1-B7B1-9F238E5E87A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CCF8638-8262-40F1-B7B1-9F238E5E87A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CCF8638-8262-40F1-B7B1-9F238E5E87A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CCF8638-8262-40F1-B7B1-9F238E5E87A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
