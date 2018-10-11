@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_9_Task_16_Operations_With_Digits", "Homework_9_Task_16_Operations_With_Digits\Homework_9_Task_16_Operations_With_Digits.csproj", "{27100AD2-6F94-49F1-856D-737C2584E88A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_9_Task_17_The_Least_Odd_Digit", "Homework_9_Task_17_The_Least_Odd_Digit\Homework_9_Task_17_The_Least_Odd_Digit.csproj", "{EBF42C40-1BBD-4F12-A447-606C6F7E6915}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{27100AD2-6F94-49F1-856D-737C2584E88A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27100AD2-6F94-49F1-856D-737C2584E88A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27100AD2-6F94-49F1-856D-737C2584E88A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBF42C40-1BBD-4F12-A447-606C6F7E6915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBF42C40-1BBD-4F12-A447-606C6F7E6915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBF42C40-1BBD-4F12-A447-606C6F7E6915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBF42C40-1BBD-4F12-A447-606C6F7E6915}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
