@@ -51,12 +51,11 @@ namespace Homework_9_Task_21_22_23_Divisers
         /// <returns></returns>
         static string ShowDivisers (int num)
         {
-            int numSqrt = (int) Math.Sqrt(num);
             string divisers = "";
 
-            for (int i = numSqrt; i > 0; i--)
+            for (int i = (int)Math.Sqrt(num); i > 0; i--)
                 divisers = IsDiviser(num, i) ?
-                    (i * i == num ? $"{numSqrt}" : $"{i} {divisers} {num / i}") :
+                    (i * i == num ? $"{i}" : $"{i} {divisers} {num / i}") :
                     divisers;
 
             return divisers.Replace("  ", " ");
