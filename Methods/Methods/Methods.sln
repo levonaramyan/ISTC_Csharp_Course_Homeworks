@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_9_Task_24_25_26_ C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_10_Task_1_NumbersOfFibonacci", "Homework_10_Task_1_NumbersOfFibonacci\Homework_10_Task_1_NumbersOfFibonacci.csproj", "{D8BD0EE3-975B-49A9-B116-5E7EE54B0C15}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_10_Task_2_Factorial", "Homework_10_Task_2_Factorial\Homework_10_Task_2_Factorial.csproj", "{69D35601-0C8A-412E-B272-5EE14634996E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{D8BD0EE3-975B-49A9-B116-5E7EE54B0C15}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8BD0EE3-975B-49A9-B116-5E7EE54B0C15}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8BD0EE3-975B-49A9-B116-5E7EE54B0C15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D35601-0C8A-412E-B272-5EE14634996E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D35601-0C8A-412E-B272-5EE14634996E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D35601-0C8A-412E-B272-5EE14634996E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D35601-0C8A-412E-B272-5EE14634996E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
