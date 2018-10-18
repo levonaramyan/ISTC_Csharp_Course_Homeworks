@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_11_Spec_1_Sort_Arr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_11_Task_30_Find_The_Four_Digit_Numbers_Where_", "Homework_11_Task_30_Find_The_Four_Digit_Numbers_Where_\Homework_11_Task_30_Find_The_Four_Digit_Numbers_Where_.csproj", "{D84909F5-FDCA-441A-9D66-B7B0A755659B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_11_Task_31_Construct_Sequence_From_N", "Homework_11_Task_31_Construct_Sequence_From_N\Homework_11_Task_31_Construct_Sequence_From_N.csproj", "{847DCF08-4F46-4507-A93B-C386A0E2A085}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{D84909F5-FDCA-441A-9D66-B7B0A755659B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D84909F5-FDCA-441A-9D66-B7B0A755659B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D84909F5-FDCA-441A-9D66-B7B0A755659B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{847DCF08-4F46-4507-A93B-C386A0E2A085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{847DCF08-4F46-4507-A93B-C386A0E2A085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{847DCF08-4F46-4507-A93B-C386A0E2A085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{847DCF08-4F46-4507-A93B-C386A0E2A085}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
