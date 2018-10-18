@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_11_Task_27_Reverse
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_11_Task_28_Is_Double_Of_Digits_Sum", "Homework_11_Task_28_Is_Double_Of_Digits_Sum\Homework_11_Task_28_Is_Double_Of_Digits_Sum.csproj", "{7B287B1F-6CB6-4767-BFD0-859AACAAFD61}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_11_Spec_1_Sort_Array", "Homework_11_Spec_1_Sort_Array\Homework_11_Spec_1_Sort_Array.csproj", "{2B18C71C-354E-44B1-ACFC-6967F5C34841}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7B287B1F-6CB6-4767-BFD0-859AACAAFD61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B287B1F-6CB6-4767-BFD0-859AACAAFD61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B287B1F-6CB6-4767-BFD0-859AACAAFD61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B18C71C-354E-44B1-ACFC-6967F5C34841}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B18C71C-354E-44B1-ACFC-6967F5C34841}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B18C71C-354E-44B1-ACFC-6967F5C34841}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B18C71C-354E-44B1-ACFC-6967F5C34841}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
