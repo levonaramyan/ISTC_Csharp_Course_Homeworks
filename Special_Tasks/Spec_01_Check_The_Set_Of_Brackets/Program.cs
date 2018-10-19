@@ -4,6 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// Spec 01: Given a string str, check whether the distribution of various types of brackets are valid in str.
+//          Types of brackets: ( ) , { } , [ ] , < >
+//          Ex1: "fadfa(dfsdg[gf]g)lo" ---> true
+//          Ex2: "faywt{ytutu<hhf}fhfhf>hhh" ---> false 
+
 namespace Spec_01_Check_The_Set_Of_Brackets
 {
     class Program
