@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spec_01_Check_The_Set_Of_Brackets", "Spec_01_Check_The_Set_Of_Brackets\Spec_01_Check_The_Set_Of_Brackets.csproj", "{D6E42E32-E1BB-4B15-A080-3643280E218C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6E42E32-E1BB-4B15-A080-3643280E218C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E42E32-E1BB-4B15-A080-3643280E218C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E42E32-E1BB-4B15-A080-3643280E218C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E42E32-E1BB-4B15-A080-3643280E218C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {328EF306-5FBF-4D91-B78D-8E5A629BACAB}
+	EndGlobalSection
+EndGlobal

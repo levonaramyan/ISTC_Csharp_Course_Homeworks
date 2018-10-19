@@ -18,7 +18,7 @@ namespace Homework_11_Spec_1_Sort_Array
                 "Return sorted array by ascending/descending, if b is true/false.\n");
             
             // Initializing a test array, and a defalut array result[]
-            int[] test = new int[] { 1, 6, 3, 7, 9, 2 };
+            int[] test = CreateRandomIntArray(10,0,100);
             bool byAscending = false;
             int[] result = new int[test.Length];
 
@@ -79,6 +79,30 @@ namespace Homework_11_Spec_1_Sort_Array
             }
 
             return reversed; // returning the reversed array
+        }
+
+        // Returns an array with len number of random elements in range [min,max]
+        static int[] CreateRandomIntArray(int len, int min, int max)
+        {
+            int[] arr = new int[len]; // Initializing a new array with len number of elements
+            Random rd = new Random(); // Creating an instance of Random class
+
+            // Adding random elements in array arr[]
+            for (int i = 0; i < len; i++)
+            {
+                arr[i] = rd.Next(min, max);
+            }
+
+            return arr; // returning the randomly generated array
+        }
+
+        // Prints the input array in Console
+        static void PrintArray(int[] arr)
+        {
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.WriteLine($"{arr[i]} ");
+            }
         }
     }
 }
