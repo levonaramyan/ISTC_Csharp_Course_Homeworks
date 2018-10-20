@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_12_Task_34_Sin_X_A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_12_Task_35_Cos_X_Approximation", "Homework_12_Task_35_Cos_X_Approximation\Homework_12_Task_35_Cos_X_Approximation.csproj", "{DF3220C8-4104-45CA-BAEF-ABE371D333B9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_12_Task_36_Ln_One_Plus_X_approximation", "Homework_12_Task_36_One_Plus_X_approximation\Homework_12_Task_36_Ln_One_Plus_X_approximation.csproj", "{FD93019D-DFFD-4483-8296-665ECB03EB86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{DF3220C8-4104-45CA-BAEF-ABE371D333B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF3220C8-4104-45CA-BAEF-ABE371D333B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF3220C8-4104-45CA-BAEF-ABE371D333B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD93019D-DFFD-4483-8296-665ECB03EB86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD93019D-DFFD-4483-8296-665ECB03EB86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD93019D-DFFD-4483-8296-665ECB03EB86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD93019D-DFFD-4483-8296-665ECB03EB86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
