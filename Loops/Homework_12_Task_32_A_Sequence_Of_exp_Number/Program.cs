@@ -24,7 +24,7 @@ namespace Homework_12_Task_32_A_Sequence_Of_exp_Number
         static double ApproxExp(int n)
         {
             double elem = 1;
-            double sum = 1;
+            double sum = 1; 
             
             for (int i = 1; i <= n; i++)
             {
