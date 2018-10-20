@@ -25,7 +25,7 @@ namespace Homework_12_Task_34_Sin_X_Approximation
 
             for (int i = 1; i <= n; i++)
             {
-                elem *= (-1)*x * x / (2 * n * (2 * n + 1));
+                elem *= (-1)*x * x / (2 * i * (2 * i + 1));
                 sum += elem;
             }
 
