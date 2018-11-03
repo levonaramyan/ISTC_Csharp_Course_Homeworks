@@ -11,25 +11,20 @@ namespace Homework_02_Planets
         static void Main(string[] args)
         {
             // Creating a new instance of Class Planet and initializing some fields
-            Planet earth = new Planet();
-            earth.Name = "Earth";
+            Planet earth = new Planet("Earth");
             earth.Mass = 5.972 * Math.Pow(10, 24);
             earth.DistFromStar = 1.496 * Math.Pow(10, 11);
             earth.Radius = 6371 * 1000;
             earth.OrbitalAzymuth = 0;
 
             // Creating a new instance of Class Star and initializing some fields
-            Star sun = new Star();
-            sun.Name = "Sun";
-            sun.Mass = 1.989 * Math.Pow(10, 30);
+            double massOfSun = 1.989 * Math.Pow(10, 30);
+            Star sun = new Star("Sun",massOfSun);
 
             // Creating few more instance of Class Planet and initializing their fields Name
-            Planet mercury = new Planet();
-            Planet venus = new Planet();
-            Planet mars = new Planet();            
-            mercury.Name = "Mercury";
-            venus.Name = "Venus";
-            mars.Name = "Mars";
+            Planet mercury = new Planet("Mercury");
+            Planet venus = new Planet("Venus");
+            Planet mars = new Planet("Mars");
 
             // Adding a sun as HostStar for all of the planets
             earth.HostStar = sun;
