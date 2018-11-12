@@ -7,6 +7,7 @@ namespace FirstProject
 {
     static class WebMeth
     {
+        // Returns an html code of the Url
         public static String code(string Url)
         {
             HttpWebRequest myRequest = (HttpWebRequest)WebRequest.Create(Url);
@@ -20,6 +21,7 @@ namespace FirstProject
             return result;
         }
 
+        // Returns a list of car Links from the front page of cars category
         public static string[] GetCarLinks()
         {
             string category = "https://www.list.am/category/23";

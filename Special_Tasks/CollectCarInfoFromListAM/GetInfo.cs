@@ -5,6 +5,7 @@ namespace FirstProject
 {
     static class GetInfo
     {
+        // Returns the price, or -1, if no price is available
         private static string GetPrice(string s)
         {
             string pattern = "\"price\">([^<]+)<";
@@ -14,6 +15,7 @@ namespace FirstProject
             return data[1].ToString();
         }
 
+        // Returns the built year of car
         private static string GetYear(string s)
         {
             string pattern = @"Տարի[^\d]+(\d{4})<";
@@ -22,6 +24,7 @@ namespace FirstProject
             return data[1].ToString();
         }
 
+        // Returns the brand of the car
         private static string GetBrand(string s)
         {
             string pattern = "Տեսակ<[^>]*><[^>]*>([^<]*)<";
@@ -30,6 +33,7 @@ namespace FirstProject
             return data[1].ToString();
         }
 
+        // Returns the model of the car
         private static string GetModel(string s)
         {
             string pattern = "Մոդել<[^>]*><[^>]*>([^<]*)<";
@@ -38,6 +42,7 @@ namespace FirstProject
             return data[1].ToString();
         }
 
+        // Returns the color of the car, or "Unspecified", if it is abscent
         private static string GetColor(string s)
         {
             string pattern = "Գույն<[^>]*><[^>]*>([^<]*)<";
@@ -47,6 +52,7 @@ namespace FirstProject
             return data[1].ToString();
         }
 
+        // Returns a car with full info
         public static Model GetFullModel(string s)
         {
             Model car = new Model();
