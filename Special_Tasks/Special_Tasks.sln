@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Spec_01_Check_The_Set_Of_Brackets", "Spec_01_Check_The_Set_Of_Brackets\Spec_01_Check_The_Set_Of_Brackets.csproj", "{D6E42E32-E1BB-4B15-A080-3643280E218C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectCarInfoFromListAM", "CollectCarInfoFromListAM\CollectCarInfoFromListAM.csproj", "{CF57FA4F-3896-4690-8870-95E9867302D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D6E42E32-E1BB-4B15-A080-3643280E218C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6E42E32-E1BB-4B15-A080-3643280E218C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6E42E32-E1BB-4B15-A080-3643280E218C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF57FA4F-3896-4690-8870-95E9867302D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF57FA4F-3896-4690-8870-95E9867302D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF57FA4F-3896-4690-8870-95E9867302D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF57FA4F-3896-4690-8870-95E9867302D5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
