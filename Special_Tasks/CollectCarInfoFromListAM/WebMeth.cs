@@ -22,9 +22,9 @@ namespace FirstProject
         }
 
         // Returns a list of car Links from the front page of cars category
-        public static string[] GetCarLinks()
+        public static string[] GetItemLinks(string category)
         {
-            string category = "https://www.list.am/category/23";
+            //string category = "https://www.list.am/category/23";
             string htmlCode;
             using (WebClient client = new WebClient())
                 htmlCode = WebMeth.code(category);
@@ -38,6 +38,17 @@ namespace FirstProject
                 cars[i] = "https://www.list.am" + data[1].ToString();
             }
             return cars;
+        }
+
+        // From home URL, finds the category path of any category and returns its URL
+        public static string GetCategoryLink(string url, string cat)
+        {
+            string htmlText = code(url);
+            string pattern = "(/category/\\d+)\">" + cat + "<";
+            MatchCollection matches = Regex.Matches(htmlText, pattern);
+            GroupCollection data = matches[0].Groups;
+
+            return url+data[1].ToString();
         }
     }
 }

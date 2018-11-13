@@ -8,9 +8,13 @@ namespace FirstProject
     {
         static void Main(string[] args)
         {
+            string website = "https://www.list.am/";
+            string category = "Ավտոմեքենաներ";
+            string catLink = WebMeth.GetCategoryLink(website, category);
+
             System.IO.File.WriteAllText(@"C:/Users/Aramyan/Desktop/CarsList.txt", ""); // Reseting the file of output
             string test1;
-            string[] carLinks = WebMeth.GetCarLinks(); // The list of links of cars
+            string[] carLinks = WebMeth.GetItemLinks(catLink); // The list of links of cars
             Model[] cars = new Model[carLinks.Length];
             for (int i = 0; i < carLinks.Length; i++)
             {
