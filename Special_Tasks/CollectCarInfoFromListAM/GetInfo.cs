@@ -20,6 +20,7 @@ namespace FirstProject
         {
             string pattern = @"Տարի[^\d]+(\d{4})<";
             MatchCollection matches = Regex.Matches(s, pattern);
+            if (matches.Count < 1) return "N/A";
             GroupCollection data = matches[0].Groups;
             return data[1].ToString();
         }
@@ -29,6 +30,7 @@ namespace FirstProject
         {
             string pattern = "Տեսակ<[^>]*><[^>]*>([^<]*)<";
             MatchCollection matches = Regex.Matches(s, pattern);
+            if (matches.Count < 1) return "N/A";
             GroupCollection data = matches[0].Groups;
             return data[1].ToString();
         }
@@ -38,6 +40,7 @@ namespace FirstProject
         {
             string pattern = "Մոդել<[^>]*><[^>]*>([^<]*)<";
             MatchCollection matches = Regex.Matches(s, pattern);
+            if (matches.Count < 1) return "N/A";
             GroupCollection data = matches[0].Groups;
             return data[1].ToString();
         }

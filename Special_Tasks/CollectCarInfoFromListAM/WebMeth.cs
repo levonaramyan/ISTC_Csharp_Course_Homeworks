@@ -50,5 +50,23 @@ namespace FirstProject
 
             return url+data[1].ToString();
         }
+
+        // Returns an array of names and URL-s of all of the categories in the website with given url
+        public static string[][] GetCategories(string url)
+        {
+            string htmlText = code(url);
+            string pattern = "href=\"(/category/\\d+)\">([^<]+)<";
+            MatchCollection matches = Regex.Matches(htmlText, pattern);
+            string[][] cats = new string[matches.Count][];
+            for (int i = 0; i < cats.Length; i++)
+            {
+                cats[i] = new string[2];
+                GroupCollection data = matches[i].Groups;
+                cats[i][0] = data[2].ToString();
+                cats[i][1] = url + data[1].ToString();
+            }
+
+            return cats;
+        }
     }
 }
