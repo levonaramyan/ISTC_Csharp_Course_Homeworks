@@ -8,7 +8,7 @@ namespace FirstProject
     static class WebMeth
     {
         // Returns an html code of the Url
-        public static String code(string Url)
+        public static String Code(string Url)
         {
             HttpWebRequest myRequest = (HttpWebRequest)WebRequest.Create(Url);
             myRequest.Method = "GET";
@@ -27,7 +27,7 @@ namespace FirstProject
             //string category = "https://www.list.am/category/23";
             string htmlCode;
             using (WebClient client = new WebClient())
-                htmlCode = WebMeth.code(category);
+                htmlCode = WebMeth.Code(category);
 
             string itemPattern = @"(/item/\d+)";
             MatchCollection matches = Regex.Matches(htmlCode, itemPattern);
@@ -43,7 +43,7 @@ namespace FirstProject
         // From home URL, finds the category path of any category and returns its URL
         public static string GetCategoryLink(string url, string cat)
         {
-            string htmlText = code(url);
+            string htmlText = Code(url);
             string pattern = "(/category/\\d+)\">" + cat + "<";
             MatchCollection matches = Regex.Matches(htmlText, pattern);
             GroupCollection data = matches[0].Groups;
@@ -54,7 +54,7 @@ namespace FirstProject
         // Returns an array of names and URL-s of all of the categories in the website with given url
         public static string[][] GetCategories(string url)
         {
-            string htmlText = code(url);
+            string htmlText = Code(url);
             string pattern = "href=\"(/category/\\d+)\">([^<]+)<";
             MatchCollection matches = Regex.Matches(htmlText, pattern);
             string[][] cats = new string[matches.Count][];
