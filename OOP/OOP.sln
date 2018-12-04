@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_02_Planets", "Home
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_09_Interfaces", "Homework_09_Interfaces\Homework_09_Interfaces.csproj", "{0961C8F4-F6A3-4906-9E82-5A1DE8D0020C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_13_Generics", "Homework_13_Generics\Homework_13_Generics.csproj", "{202C7E96-CDFD-4AEF-B892-19D1AF0C0AF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0961C8F4-F6A3-4906-9E82-5A1DE8D0020C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0961C8F4-F6A3-4906-9E82-5A1DE8D0020C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0961C8F4-F6A3-4906-9E82-5A1DE8D0020C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{202C7E96-CDFD-4AEF-B892-19D1AF0C0AF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{202C7E96-CDFD-4AEF-B892-19D1AF0C0AF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{202C7E96-CDFD-4AEF-B892-19D1AF0C0AF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{202C7E96-CDFD-4AEF-B892-19D1AF0C0AF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
